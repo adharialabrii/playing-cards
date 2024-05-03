@@ -1,0 +1,31 @@
+
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(Screen\ Shot\ 2024-03-19\ at\ 7.54.04\ PM.png);
+    background-size: cover; /*cover so that it doesnt add somethign extra when expanded*/
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    height: 100vh;
+    
+    
+}
+h1{
+    color: goldenrod; /*overwrites whats on top*/
+}
+#message-el{ /*using id styling */
+    font-style: italic;
+}
+button{ /*button can also be done*/
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px; /*for gap between the buttons*/
+}
